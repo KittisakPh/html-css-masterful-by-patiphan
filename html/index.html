@@ -97,11 +97,35 @@
 
   <!-- Form -->
   <form action="">
-    <label for="fname">First Name:</label><br />
-    <input type="text" id="fname"> <br />
-    <label>Last Name:
-      <input type="text">
-    </label><br />
+    <fieldset>
+      <legend>Personal Info</legend>
+      <label for="fname">First Name:</label><br />
+      <input type="text" id="fname" placeholder="enter your firstname"> <br />
+      <label>Last Name:
+        <input type="text" placeholder="enter your lastname">
+      </label><br />
+    </fieldset>
+
+    <select name="cars" id="cars">
+      <optgroup label="Cars">
+        <option value="volvo">Volvo</option>
+        <option value="toyota">Toyota</option>
+        <option value="honda">Honda</option>
+        <option value="masda">Masda</option>
+      </optgroup>
+    </select><br />
+
+    <input list="browsers" name="browser">
+    <datalist id="browsers">
+      <option value="volvo">
+      <option value="toyota">
+      <option value="honda">
+      <option value="masda">Masda
+    </datalist>
+
+    <textarea name="" id=""></textarea>
+    <button type="subbmit">Submit</button>
+
     <input type="checkbox">Checkbox<br />
     <input type="color"><br />
     <input type="date"><br />
@@ -110,18 +134,18 @@
     <input type="file"><br />
     <input type="hidden"><br />
     <input type="image"><br />
-    <input type="month" ><br />
+    <input type="month"><br />
     <input type="number"><br />
     <input type="password"><br />
-    <input type="radio" ><br />
-    <input type="range" ><br />
-    <input type="reset" ><br />
-    <input type="search" ><br />
-    <input type="submit" ><br />
+    <input type="radio"><br />
+    <input type="range"><br />
+    <input type="reset"><br />
+    <input type="search"><br />
+    <input type="submit"><br />
     <input type="tel"><br />
-    <input type="text" ><br />
-    <input type="time" ><br />
-    <input type="url" ><br />
+    <input type="text"><br />
+    <input type="time"><br />
+    <input type="url"><br />
     <input type="week"><br />
 
     <button type="subbmit">Submit</button>
